@@ -26,8 +26,9 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
+    - run: npm config set prefix KahootFlooder/KahootFlooder
     - run: npm install kahoot.js-updated
     - run: npm install prompt-sync
     - run: npm install random-name
     - run: node index.js
-    - run: npm config set prefix KahootFlooder/KahootFlooder
+
