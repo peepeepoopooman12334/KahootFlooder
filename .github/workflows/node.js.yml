@@ -30,3 +30,4 @@ jobs:
     - run: npm install prompt-sync
     - run: npm install random-name
     - run: node index.js
+    
