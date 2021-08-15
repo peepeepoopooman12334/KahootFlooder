@@ -35,5 +35,3 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Flood
         run: node index.js
-          echo Add other actions to build,
-          echo test, and deploy your project.
